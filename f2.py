@@ -8,8 +8,8 @@ class FEIXIN:
 	
 		print 'init FEIXIN class...'
 		
-		self.name = "18790349273"
-		self.passwd = 'woaiceo123'
+		self.name = "1879034"
+		self.passwd = ''
 		
 		ckjar = cookielib.CookieJar()
 		cookiehandle = urllib2.HTTPCookieProcessor(ckjar)

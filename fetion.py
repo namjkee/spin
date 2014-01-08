@@ -162,7 +162,7 @@ if __name__ == "__main__":
 	#隐身登录 --- 1
 	loginstatus=1
 	#初始化用户信息
-	fetion.SetInfo("18790342855","woaiceo123",loginstatus)
+	fetion.SetInfo("1879034-","-",loginstatus)
 	#登录飞信
 	print "登录中，请耐心等待..."
 	
@@ -172,7 +172,7 @@ if __name__ == "__main__":
 	 
 	print "请选择菜单：\n 1. 发送消息给好友;\n 2.添加好友;\n 3.退出。"
 
-	fetion.SendWithId("798786593","Msg")
+	fetion.SendWithId("7s","Msg")
 	control = raw_input()
 	if control == '1':
 		while True:
